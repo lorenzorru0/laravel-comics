@@ -2,6 +2,7 @@ header {
     @include dFlex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 .625rem;
 
     img {
         width: 5rem;

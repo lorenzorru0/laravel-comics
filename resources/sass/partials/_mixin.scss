@@ -1,0 +1,11 @@
+@mixin list {
+    list-style: none;
+}
+
+@mixin dFlex {
+    display: flex;
+}
+
+@mixin link {
+    text-decoration: none;
+}

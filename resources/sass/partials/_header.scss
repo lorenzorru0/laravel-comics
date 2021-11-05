@@ -1,0 +1,30 @@
+header {
+    @include dFlex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 5rem;
+    }
+
+    ul {
+        @include dFlex;
+        @include list;
+
+        li {
+            padding: 0 .9375rem;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: $black;
+            padding: 3.125rem 0;
+
+            &.active {
+                color: $commonBlue;
+                border-bottom: .4375rem solid $commonBlue;
+            }
+        }
+    }
+}

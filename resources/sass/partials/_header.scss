@@ -1,31 +1,51 @@
 header {
-    @include dFlex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 .625rem;
-
-    img {
-        width: 5rem;
-    }
-
-    ul {
+    
+    .headerTop {
+        background-color: $commonBlue;
         @include dFlex;
-        @include list;
+        justify-content: flex-end;
+        padding: 0 .625rem;
+        font-size: 0.9rem;
+        color: #fff;
 
-        li {
-            padding: 0 .9375rem;
+        div:last-child {
+            margin-left: 3.125rem;
+        }
+    }
+    
+    .headerBottom {
+        @include dFlex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 .625rem;
+    
+        img {
+            width: 5rem;
+        }
+    
+        ul {
+            @include dFlex;
+            @include list;
+    
+            li {
+                padding: 0 .9375rem;
+            }
+    
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: $black;
+                padding: 3.125rem 0;
+    
+                &.active {
+                    color: $commonBlue;
+                    border-bottom: .4375rem solid $commonBlue;
+                }
+            }
         }
 
-        a {
-            display: inline-block;
-            text-decoration: none;
-            color: $black;
-            padding: 3.125rem 0;
-
-            &.active {
-                color: $commonBlue;
-                border-bottom: .4375rem solid $commonBlue;
-            }
+        input {
+            margin: 3.125rem 0 3.5625rem 0;
         }
     }
 }

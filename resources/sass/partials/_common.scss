@@ -12,3 +12,12 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+/* Fontawesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+/* Common */
+.hero {
+    height: 20rem;
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+}

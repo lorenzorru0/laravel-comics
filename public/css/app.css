@@ -1,9 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;
-
-700&display=swap);/* Width */
-
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css);/* Width */
 /* Colors */
-
 /* Reset */
 * {
   box-sizing: border-box;
@@ -12,40 +8,55 @@
 }
 
 /* Google font */
-
 body {
   font-family: "PT Sans Narrow", sans-serif;
 }
 
-header {
+/* Fontawesome */
+/* Common */
+.hero {
+  height: 20rem;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+}
+
+header .headerTop {
+  background-color: #0282f9;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0.625rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+header .headerTop div:last-child {
+  margin-left: 3.125rem;
+}
+header .headerBottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 0.625rem;
 }
-
-header img {
+header .headerBottom img {
   width: 5rem;
 }
-
-header ul {
+header .headerBottom ul {
   display: flex;
   list-style: none;
 }
-
-header ul li {
+header .headerBottom ul li {
   padding: 0 0.9375rem;
 }
-
-header ul a {
+header .headerBottom ul a {
   display: inline-block;
   text-decoration: none;
   color: #000;
   padding: 3.125rem 0;
 }
-
-header ul a.active {
+header .headerBottom ul a.active {
   color: #0282f9;
   border-bottom: 0.4375rem solid #0282f9;
 }
-
+header .headerBottom input {
+  margin: 3.125rem 0 3.5625rem 0;
+}

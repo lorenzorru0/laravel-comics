@@ -130,3 +130,24 @@ main .containerSeries .container button {
   padding: 0.625rem 2.7rem;
   cursor: pointer;
 }
+main .containerBuy {
+  background-color: #0282f9;
+}
+main .containerBuy ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 4rem 0;
+}
+main .containerBuy ul li {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+main .containerBuy ul li img {
+  height: 4rem;
+  margin-right: 0.625rem;
+}
+main .containerBuy ul li:last-child img {
+  height: 3rem;
+}

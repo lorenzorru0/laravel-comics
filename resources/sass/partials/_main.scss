@@ -58,4 +58,30 @@ main {
             }
         }    
     }
+
+    .containerBuy {
+        background-color: $commonBlue;
+
+        ul {
+            @include dFlex;
+            justify-content: space-around;
+            @include list;
+            padding: 4rem 0;
+
+            li {
+                @include dFlex;
+                align-items: center;
+                color: $white;
+
+                img {
+                    height: 4rem;
+                    margin-right: .625rem;
+                }
+
+                &:last-child img {
+                    height: 3rem;
+                }
+            }
+        }
+    }
 }

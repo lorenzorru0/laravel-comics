@@ -69,7 +69,34 @@ Route::get('/', function () {
                 "link" => '#',
                 "active" => false
             ]
-        ]
+        ],
+        "elements" => [
+            "digitalComics" => [
+                "name" => 'DIGITAL COMICS',
+                "src" => 'buy-comics-digital-comics.png',
+                "link" => '#'
+            ],
+            "dcMerchandise" => [
+                "name" => 'DC MERCHANDISE',
+                "src" => 'buy-comics-merchandise.png',
+                "link" => '#'
+            ],
+            "subscription" => [
+                "name" => 'SUBSCRITION',
+                "src" => 'buy-comics-subscriptions.png',
+                "link" => '#'
+            ],
+            "comicShopLocator" => [
+                "name" => 'DIGITAL COMICS',
+                "src" => 'buy-comics-shop-locator.png',
+                "link" => '#'
+            ],
+            "dcPowerVisa" => [
+                "name" => 'DC POWER VISE',
+                "src" => 'buy-dc-power-visa.svg',
+                "link" => '#'
+            ],
+        ]      
     ];
 
     return view('index', $tmp);

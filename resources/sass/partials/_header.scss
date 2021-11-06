@@ -2,15 +2,19 @@ header {
     
     .headerTop {
         background-color: $commonBlue;
-        @include dFlex;
-        justify-content: flex-end;
-        padding: 0 .625rem;
-        font-size: 0.9rem;
+        padding: .3125rem .625rem;
+        font-size: 0.8rem;
         color: #fff;
 
-        div:last-child {
-            margin-left: 3.125rem;
+        .container {
+            @include dFlex;
+            justify-content: flex-end;
+            
+            div:last-child {
+                margin-left: 3.125rem;
+            }
         }
+
     }
     
     .headerBottom {
@@ -44,8 +48,19 @@ header {
             }
         }
 
-        input {
-            margin: 3.125rem 0 3.5625rem 0;
+        .containerSearch {
+            margin: 2.9375rem 0 3.375rem 0;
+            border-bottom: .125rem solid $commonBlue;
+
+            input {
+                border: none;
+                text-align: right;
+                font-size: 1rem;
+                padding: .1875rem;
+            }
+            ::placeholder {
+                color: #000;
+            }
         }
     }
 }

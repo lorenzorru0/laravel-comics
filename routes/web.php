@@ -18,7 +18,7 @@ Route::get('/', function () {
 
     $tmp = [
         "comics" => $data,
-        "link" => [
+        "linksHeader" => [
             "characters" => [
                 "name" => 'CHARACTERS',
                 "link" => '#',
@@ -96,7 +96,144 @@ Route::get('/', function () {
                 "src" => 'buy-dc-power-visa.svg',
                 "link" => '#'
             ],
-        ]      
+        ],
+        "linksFooter" => [
+            "dcComics" => [
+                [
+                    "name" => 'Characters',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Comics',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Movies',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'TV',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Games',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Videos',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'News',
+                    "href" => '#' 
+                ]
+            ],
+            "shop" => [
+                [
+                    "name" => 'Shop DC',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Shop DC Collectibles',
+                    "href" => '#' 
+                ]
+            ],
+            "dc" => [
+                [
+                    "name" => 'Term Of Use',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Privacy policy (New)',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Ad Choices',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Advertising',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Jobs',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Subscriptions',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Talent Workshops',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'CPSC Certificates',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Ratings',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Shop Help',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'Contact Us',
+                    "href" => '#' 
+                ],
+            ],
+            "sites" => [
+                [
+                    "name" => 'DC',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'MAD Magazine',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'DC Kids',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'DC Universe',
+                    "href" => '#' 
+                ],
+                [
+                    "name" => 'DC Power Visa',
+                    "href" => '#' 
+                ],
+            ],
+            "social" => [
+                [
+                    "url" => 'footer-facebook.png',
+                    "name" => 'Facebook icon',
+                    "href" => '#'
+                ],
+                [
+                    "url" => 'footer-twitter.png',
+                    "name" => 'Twitter icon',
+                    "href" => '#'
+                ],
+                [
+                    "url" => 'footer-youtube.png',
+                    "name" => 'Youtube icon',
+                    "href" => '#'
+                ],
+                [
+                    "url" => 'footer-pinterest.png',
+                    "name" => 'Pinterest icon',
+                    "href" => '#'
+                ],
+                [
+                    "url" => 'footer-periscope.png',
+                    "name" => 'Periscope icon',
+                    "href" => '#'
+                ],
+            ]
+        ]
     ];
 
     return view('index', $tmp);

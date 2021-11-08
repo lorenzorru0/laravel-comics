@@ -13,7 +13,7 @@
             </div>
             <div>
                 <ul>
-                    @foreach ($link as $navLink)
+                    @foreach ($linksHeader as $navLink)
                         @if ($navLink['active'] == false)
                             <li><a href="{{$navLink['link']}}">{{$navLink['name']}}</a></li>
                         @else

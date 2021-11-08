@@ -151,3 +151,68 @@ main .containerBuy ul li img {
 main .containerBuy ul li:last-child img {
   height: 3rem;
 }
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: contain;
+}
+footer .footerTop .container {
+  display: flex;
+  padding-top: 1.875rem;
+  padding-bottom: 3.125rem;
+  background-image: url("../images/dc-logo-bg.png");
+  background-position: 39.875rem -5.625rem;
+  background-repeat: no-repeat;
+}
+footer .footerTop nav {
+  display: flex;
+}
+footer .footerTop nav div {
+  margin-right: 1.75rem;
+}
+footer .footerTop nav ul {
+  list-style: none;
+}
+footer .footerTop nav ul h3 {
+  color: #fff;
+  padding: 20px 0;
+}
+footer .footerTop nav ul a {
+  text-decoration: none;
+  color: #959595;
+}
+footer .footerTop img {
+  width: 31.25rem;
+}
+footer .footerBottom {
+  background-color: #303030;
+  padding: 1.875rem 0;
+}
+footer .footerBottom .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footerBottom .container button {
+  border: none;
+  padding: 0.625rem;
+  border: 2px solid #0282f9;
+  background-color: inherit;
+  color: #fff;
+  cursor: pointer;
+}
+footer .footerBottom .container div:last-child {
+  display: flex;
+  align-items: center;
+}
+footer .footerBottom .container div:last-child h3 {
+  color: #0282f9;
+}
+footer .footerBottom .container div:last-child a {
+  display: inline-block;
+  margin-left: 0.9375rem;
+  border-radius: 50%;
+}
+footer .footerBottom .container div:last-child a img {
+  display: block;
+}

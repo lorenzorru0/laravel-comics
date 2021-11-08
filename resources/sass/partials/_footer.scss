@@ -1,0 +1,83 @@
+footer {
+    background-image: url('../images/footer-bg.jpg');
+    background-size: contain;
+
+    .footerTop {
+        .container {
+            @include dFlex;
+            padding: {
+                top: 1.875rem;
+                bottom: 3.125rem;
+            };
+            background-image: url('../images/dc-logo-bg.png');
+            background-position: 39.875rem -5.625rem;
+            background-repeat: no-repeat;
+        }
+
+        nav {
+            @include dFlex;
+
+            div {
+                margin-right: 1.75rem;
+            }
+
+            ul {
+                @include list;
+
+                h3 {
+                    color: $white;
+                    padding: 20px 0;
+                }
+
+                a {
+                    @include link;
+                    color: #959595;
+                }
+            }
+        }
+
+        img {
+            width: 31.25rem;
+        }
+    }
+
+    .footerBottom {
+        background-color: #303030;
+        padding: 1.875rem 0;
+
+        .container {
+            @include dFlex;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                border: none;
+                padding: .625rem;
+                border: 2px solid $commonBlue;
+                background-color: inherit;
+                color: $white;
+                cursor: pointer;
+            }
+
+            div:last-child {
+                @include dFlex;
+                align-items: center;
+
+                h3 {
+                    color: $commonBlue;
+                }
+
+                a {
+                    display: inline-block;
+                    margin-left: .9375rem;
+                    border-radius: 50%;
+                    
+
+                    img {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -202,27 +202,27 @@ class ComicsController extends Controller
                 ],
                 "social" => [
                     [
-                        "url" => 'footer-facebook.png',
+                        "url" => 'images/footer-facebook.png',
                         "name" => 'Facebook icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-twitter.png',
+                        "url" => 'images/footer-twitter.png',
                         "name" => 'Twitter icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-youtube.png',
+                        "url" => 'images/footer-youtube.png',
                         "name" => 'Youtube icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-pinterest.png',
+                        "url" => 'images/footer-pinterest.png',
                         "name" => 'Pinterest icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-periscope.png',
+                        "url" => 'images/footer-periscope.png',
                         "name" => 'Periscope icon',
                         "href" => '#'
                     ],
@@ -434,27 +434,27 @@ class ComicsController extends Controller
                 ],
                 "social" => [
                     [
-                        "url" => 'footer-facebook.png',
+                        "url" => 'images/footer-facebook.png',
                         "name" => 'Facebook icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-twitter.png',
+                        "url" => 'images/footer-twitter.png',
                         "name" => 'Twitter icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-youtube.png',
+                        "url" => 'images/footer-youtube.png',
                         "name" => 'Youtube icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-pinterest.png',
+                        "url" => 'images/footer-pinterest.png',
                         "name" => 'Pinterest icon',
                         "href" => '#'
                     ],
                     [
-                        "url" => 'footer-periscope.png',
+                        "url" => 'images/footer-periscope.png',
                         "name" => 'Periscope icon',
                         "href" => '#'
                     ],

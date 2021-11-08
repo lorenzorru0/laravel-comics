@@ -43,7 +43,7 @@
                 <div>
                     <h3>FOLLOW US</h3>
                     @foreach ($linksFooter['social'] as $elm)
-                        <a href="{{$elm['href']}}"><img src="images/{{$elm['url']}}" alt="{{$elm['name']}}"></a>
+                        <a href="{{$elm['href']}}"><img src="{{asset($elm['url'])}}" alt="{{$elm['name']}}"></a>
                     @endforeach
                 </div>
             </div>

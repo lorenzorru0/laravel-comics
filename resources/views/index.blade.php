@@ -8,11 +8,13 @@
             </div>
 
             <div class="seriesContainer">
-                @foreach ($comics as $comic)
-                    <div class="series">
-                        <img src="{{$comic['thumb']}}" :alt="{{$comic['title']}}">
-                        <p>{{$comic['title']}}</p>
-                    </div>
+                @foreach ($comics as $index => $comic)
+                    <a href="{{route('comic', ['id' => $index])}}">
+                        <div class="series">
+                            <img src="{{$comic['thumb']}}" :alt="{{$comic['title']}}">
+                            <p>{{$comic['title']}}</p>
+                        </div>
+                    </a>
                 @endforeach
             </div>
 

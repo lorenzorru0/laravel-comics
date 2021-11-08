@@ -102,11 +102,15 @@ main .containerSeries .container .seriesContainer {
   display: flex;
   flex-wrap: wrap;
 }
-main .containerSeries .container .seriesContainer .series {
+main .containerSeries .container .seriesContainer a {
+  display: block;
   width: 16.6666666667%;
+}
+main .containerSeries .container .seriesContainer a .series {
+  width: 100%;
   padding: 1.25rem 0.625rem;
 }
-main .containerSeries .container .seriesContainer .series img {
+main .containerSeries .container .seriesContainer a .series img {
   width: 100%;
   height: 11.25rem;
   -o-object-fit: cover;
@@ -114,7 +118,7 @@ main .containerSeries .container .seriesContainer .series img {
   -o-object-position: top;
      object-position: top;
 }
-main .containerSeries .container .seriesContainer .series p {
+main .containerSeries .container .seriesContainer a .series p {
   color: #fff;
   text-transform: uppercase;
   margin-top: 0.625rem;
@@ -150,6 +154,71 @@ main .containerBuy ul li img {
 }
 main .containerBuy ul li:last-child img {
   height: 3rem;
+}
+
+.singleComic .sectionThumb {
+  height: 3.75rem;
+  background-color: #0282f9;
+  position: relative;
+}
+.singleComic .sectionThumb img {
+  width: 8.125rem;
+  position: absolute;
+  border: 0.0625rem solid #fff;
+  bottom: 15px;
+}
+.singleComic .sectionInfo {
+  padding: 2.5rem 0;
+  display: flex;
+}
+.singleComic .sectionInfo .info {
+  width: 60%;
+}
+.singleComic .sectionInfo .info h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #003f5e;
+}
+.singleComic .sectionInfo .info .priceContainer {
+  display: flex;
+  background-color: #55ba59;
+  border-bottom: 0.0625rem solid #357739;
+  margin: 1.25rem 0;
+}
+.singleComic .sectionInfo .info .priceContainer p {
+  color: #fff;
+}
+.singleComic .sectionInfo .info .priceContainer div:first-child {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 0.9375rem;
+  border-right: 0.0625rem solid #357739;
+}
+.singleComic .sectionInfo .info .priceContainer div:first-child span {
+  color: #bafd8b;
+}
+.singleComic .sectionInfo .info .priceContainer div:last-child {
+  width: 40%;
+  padding: 0.9375rem;
+  text-align: center;
+}
+.singleComic .sectionInfo .info p {
+  color: #555555;
+  line-height: 1.9rem;
+  font-size: 1.1rem;
+}
+.singleComic .sectionInfo .adv {
+  width: 40%;
+  text-align: right;
+  color: gray;
+}
+.singleComic .sectionInfo .adv img {
+  width: 90%;
+}
+.singleComic .conteinerSingleComic {
+  max-width: 68.75rem;
+  margin: 0 auto;
 }
 
 footer {

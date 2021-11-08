@@ -1,0 +1,78 @@
+.singleComic {
+    .sectionThumb {
+        height: 3.75rem;
+        background-color: $commonBlue;
+        position: relative;
+
+        img {
+            width: 8.125rem;
+            position: absolute;
+            border: .0625rem solid #fff;
+            bottom: 15px;
+        }
+    }
+
+    .sectionInfo {
+        padding: 2.5rem 0;
+        display: flex;
+
+        .info {
+            width: 60%;
+
+            h2 {
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #003f5e;
+            }
+
+            .priceContainer {
+                display: flex;
+                background-color: #55ba59;
+                border-bottom: .0625rem solid #357739;
+                margin: 1.25rem 0;
+
+                p {
+                    color: #fff;
+                }
+
+                div:first-child {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 60%;
+                    padding: .9375rem;
+                    border-right: .0625rem solid #357739;
+
+                    span {
+                        color: #bafd8b;
+                    }
+                }
+
+                div:last-child {
+                    width: 40%;
+                    padding: .9375rem;
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: #555555;
+                line-height: 1.9rem;
+                font-size: 1.1rem;
+            }
+        }
+        .adv {
+            width: 40%;
+            text-align: right;
+            color: gray;
+
+            img {
+                width: 90%;
+            }
+        }
+    }
+
+    .conteinerSingleComic {
+        max-width: 68.75rem;
+        margin: 0 auto;
+    }
+}

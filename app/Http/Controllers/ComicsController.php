@@ -67,27 +67,27 @@ class ComicsController extends Controller
             "elements" => [
                 "digitalComics" => [
                     "name" => 'DIGITAL COMICS',
-                    "src" => 'buy-comics-digital-comics.png',
+                    "src" => 'images/buy-comics-digital-comics.png',
                     "link" => '#'
                 ],
                 "dcMerchandise" => [
                     "name" => 'DC MERCHANDISE',
-                    "src" => 'buy-comics-merchandise.png',
+                    "src" => 'images/buy-comics-merchandise.png',
                     "link" => '#'
                 ],
                 "subscription" => [
                     "name" => 'SUBSCRITION',
-                    "src" => 'buy-comics-subscriptions.png',
+                    "src" => 'images/buy-comics-subscriptions.png',
                     "link" => '#'
                 ],
                 "comicShopLocator" => [
                     "name" => 'DIGITAL COMICS',
-                    "src" => 'buy-comics-shop-locator.png',
+                    "src" => 'images/buy-comics-shop-locator.png',
                     "link" => '#'
                 ],
                 "dcPowerVisa" => [
                     "name" => 'DC POWER VISE',
-                    "src" => 'buy-dc-power-visa.svg',
+                    "src" => 'images/buy-dc-power-visa.svg',
                     "link" => '#'
                 ],
             ],
@@ -299,27 +299,27 @@ class ComicsController extends Controller
             "elements" => [
                 "digitalComics" => [
                     "name" => 'DIGITAL COMICS',
-                    "src" => 'buy-comics-digital-comics.png',
+                    "src" => 'images/buy-comics-digital-comics.png',
                     "link" => '#'
                 ],
                 "dcMerchandise" => [
                     "name" => 'DC MERCHANDISE',
-                    "src" => 'buy-comics-merchandise.png',
+                    "src" => 'images/buy-comics-merchandise.png',
                     "link" => '#'
                 ],
                 "subscription" => [
                     "name" => 'SUBSCRITION',
-                    "src" => 'buy-comics-subscriptions.png',
+                    "src" => 'images/buy-comics-subscriptions.png',
                     "link" => '#'
                 ],
                 "comicShopLocator" => [
                     "name" => 'DIGITAL COMICS',
-                    "src" => 'buy-comics-shop-locator.png',
+                    "src" => 'images/buy-comics-shop-locator.png',
                     "link" => '#'
                 ],
                 "dcPowerVisa" => [
                     "name" => 'DC POWER VISE',
-                    "src" => 'buy-dc-power-visa.svg',
+                    "src" => 'images/buy-dc-power-visa.svg',
                     "link" => '#'
                 ],
             ],

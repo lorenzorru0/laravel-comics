@@ -14,6 +14,18 @@
     <main>
         <div class="hero"></div>
         @yield('mainContent')
+        <section class="containerBuy">
+            <div class="container">
+                <ul>
+                    @foreach ($elements as $elm)
+                        <li>
+                            <img src="{{asset($elm['src'])}}" alt="{{$elm['name']}}">
+                            <span>{{$elm['name']}}</span>
+                        </li>
+                    @endforeach
+                </ul> 
+            </div>
+        </section>
     </main>
 
     @include('partials.footer')

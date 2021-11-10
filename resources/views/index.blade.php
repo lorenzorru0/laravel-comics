@@ -23,16 +23,4 @@
             </div>
         </div>
     </section>
-    <section class="containerBuy">
-        <div class="container">
-            <ul>
-                @foreach ($elements as $elm)
-                    <li>
-                        <img src="images/{{$elm['src']}}" alt="{{$elm['name']}}">
-                        <span>{{$elm['name']}}</span>
-                    </li>
-                @endforeach
-            </ul> 
-        </div>
-    </section>
 @endsection

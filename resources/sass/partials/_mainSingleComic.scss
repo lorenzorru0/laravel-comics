@@ -22,11 +22,12 @@
             h2 {
                 font-weight: 600;
                 text-transform: uppercase;
-                color: #003f5e;
+                color: $darkBlue;
             }
 
             .priceContainer {
                 display: flex;
+                align-items: center;
                 background-color: #55ba59;
                 border-bottom: .0625rem solid #357739;
                 margin: 1.25rem 0;
@@ -69,6 +70,58 @@
                 width: 90%;
             }
         }
+    }
+
+    .sectionGray {
+        background-color: #f6f6f6;
+        border-top: .0625rem solid $colorMarginSingle;
+
+        .conteinerSingleComic {
+            display: flex;
+            padding-bottom: 3.125rem;
+
+            .sectionGrayParts {
+                width: 50%;
+
+                h3 {
+                    color: $darkBlue;
+                    margin: 1.875rem 0;
+                }
+
+                .row {
+                    display: flex;
+                    border-top: .0625rem solid $colorMarginSingle;
+                    padding: .625rem 0;
+
+                    .col {
+                        width: 40%;
+                        color: $darkBlue;
+                    }
+
+                    div {
+                        width: 60%;
+                    }
+
+                    .blue {
+                        color: #4fa9db;
+                    }
+
+                    &:last-child {
+                        border-bottom: .0625rem solid $colorMarginSingle;
+                    }
+                }
+
+                &:first-child {
+                    padding-right: .9375rem;
+                }
+                &:last-child {
+                    padding-left: .9375rem;
+                }
+            }
+
+        }
+
+
     }
 
     .conteinerSingleComic {
